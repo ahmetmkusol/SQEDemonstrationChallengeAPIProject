@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="testsuite">
+<listeners>
+	<listener class-name="com.pizzaapi.utils.Listeners"/>
+</listeners>
+<test thread-count="14" name="tests">
+
+	<classes>
+			<class name="com.pizzaapi.tests.TC001_Get_ListAllToppings"/>
+		 	<class name="com.pizzaapi.tests.TC002_Post_CreateTopping"/>
+			<class name="com.pizzaapi.tests.TC003_Post_CreateToppingDuplicate"/>
+			<class name="com.pizzaapi.tests.TC004_Post_CreateToppingWithoutBody"/>
+			<class name="com.pizzaapi.tests.TC005_Delete_DeleteTopping"/>
+			<class name="com.pizzaapi.tests.TC006_Delete_DeleteToppingInvalidPath"/>
+			<class name="com.pizzaapi.tests.TC007_Get_ListPizzas"/>
+			<class name="com.pizzaapi.tests.TC008_Get_ListOrders"/>
+			<class name="com.pizzaapi.tests.TC009_Get_ListSingleOrder"/>
+			<class name="com.pizzaapi.tests.TC010_Get_ListSingleOrderInvalidId"/> 
+			<class name="com.pizzaapi.tests.TC011_Post_CreateOrder"/>
+			<class name="com.pizzaapi.tests.TC012_Post_CreateOrderIncorrectNumberToppings"/> 
+			<class name="com.pizzaapi.tests.TC013_Post_CreateOrderInvalidPizza"/>
+			<class name="com.pizzaapi.tests.TC014_Post_CreateOrderPizzaNotSpecified"/> 
+		</classes>
+
+</test>
+
+
+
+
+
+</suite>

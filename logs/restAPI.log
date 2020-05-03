@@ -1,0 +1,310 @@
+05/03/2020 05:03:51 INFO ** TC001_Get_ListAllToppings started **
+05/03/2020 05:03:53 INFO ** Checking Content Type **
+05/03/2020 05:03:53 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:53 INFO ** Checking Response Body **
+05/03/2020 05:03:53 INFO Response body = [
+  {
+    "id": 1,
+    "name": "Diced Mango"
+  },
+  {
+    "id": 2,
+    "name": "Olives"
+  },
+  {
+    "id": 3,
+    "name": "Mushrooms"
+  },
+  {
+    "id": 4,
+    "name": "Caramelized onions"
+  },
+  {
+    "id": 5,
+    "name": "Italian Ham"
+  },
+  {
+    "id": 6,
+    "name": "Classic Pepperoni"
+  },
+  {
+    "id": 7,
+    "name": "Salami"
+  },
+  {
+    "id": 8,
+    "name": "Provolone cheese"
+  },
+  {
+    "id": 9,
+    "name": "Extra cheese"
+  },
+  {
+    "id": 10,
+    "name": "Mozzarella cheese"
+  },
+  {
+    "id": 11,
+    "name": "Parmesan cheese"
+  }
+]
+05/03/2020 05:03:53 INFO ** Checking Response Time
+05/03/2020 05:03:53 INFO Response Time is = 1159
+05/03/2020 05:03:53 INFO ** Checking Status Code **
+05/03/2020 05:03:53 INFO Status Code is = 200
+05/03/2020 05:03:53 INFO ** TC001_Get_ListAllToppings completed **
+05/03/2020 05:03:53 INFO ** TC002_Post_CreateTopping started **
+05/03/2020 05:03:54 INFO ** Checking Content Type **
+05/03/2020 05:03:54 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:54 INFO ** Checking Response Body **
+05/03/2020 05:03:54 INFO Response body = {
+  "name": "bacon",
+  "id": 12
+}
+05/03/2020 05:03:54 INFO ** Checking Response Time
+05/03/2020 05:03:54 INFO Response Time is = 143
+05/03/2020 05:03:54 INFO ** Checking Status Code **
+05/03/2020 05:03:54 INFO Status Code is = 201
+05/03/2020 05:03:54 INFO ** TC002_Post_CreateTopping completed **
+05/03/2020 05:03:54 INFO ** TC003_Post_CreateToppingDuplicate started **
+05/03/2020 05:03:54 INFO ** Checking Content Type **
+05/03/2020 05:03:54 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:54 INFO ** Checking Response Time
+05/03/2020 05:03:54 INFO Response Time is = 95
+05/03/2020 05:03:54 INFO ** TC003_Post_CreateToppingDuplicate completed **
+05/03/2020 05:03:54 INFO ** TC004_Post_CreateToppingWithoutBody completed **
+05/03/2020 05:03:54 INFO ** Checking Content Type **
+05/03/2020 05:03:54 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:54 INFO ** Checking Response Body **
+05/03/2020 05:03:54 INFO Response body = {
+  "": "",
+  "id": 12
+}
+05/03/2020 05:03:54 INFO ** Checking Response Time
+05/03/2020 05:03:54 INFO Response Time is = 86
+05/03/2020 05:03:54 INFO ** Checking Status Code **
+05/03/2020 05:03:54 INFO Status Code is = 201
+05/03/2020 05:03:54 INFO ** TC004_Post_CreateToppingWithoutBody completed **
+05/03/2020 05:03:54 INFO ** TC005_Delete_DeleteTopping started **
+05/03/2020 05:03:54 INFO ** Checking Content Type **
+05/03/2020 05:03:54 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:54 INFO ** Checking Response Body **
+05/03/2020 05:03:54 INFO Response body = {}
+05/03/2020 05:03:54 INFO ** Checking Response Time
+05/03/2020 05:03:54 INFO Response Time is = 82
+05/03/2020 05:03:54 INFO ** Checking Status Code **
+05/03/2020 05:03:54 INFO Status Code is = 200
+05/03/2020 05:03:54 INFO ** Checking Status Code **
+05/03/2020 05:03:54 INFO Status Code is = 404
+05/03/2020 05:03:54 INFO ** TC005_Delete_DeleteTopping completed **
+05/03/2020 05:03:54 INFO ** TC006_Delete_DeleteToppingInvalidPath started **
+05/03/2020 05:03:54 INFO ** Checking Content Type **
+05/03/2020 05:03:54 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:54 INFO ** Checking Response Body **
+05/03/2020 05:03:54 INFO Response body = {}
+05/03/2020 05:03:54 INFO ** Checking Response Time
+05/03/2020 05:03:54 INFO Response Time is = 73
+05/03/2020 05:03:54 INFO ** Checking Status Code **
+05/03/2020 05:03:54 INFO Status Code is = 404
+05/03/2020 05:03:54 INFO ** TC006_Delete_DeleteToppingInvalidPath completed **
+05/03/2020 05:03:54 INFO ** TC007_Get_ListPizzas started **
+05/03/2020 05:03:55 INFO ** Checking Content Type **
+05/03/2020 05:03:55 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:55 INFO ** Checking Response Body **
+05/03/2020 05:03:55 INFO Response body = [
+  {
+    "id": 1,
+    "pizza": "Small 6 Slices - no toppings"
+  },
+  {
+    "id": 2,
+    "pizza": "Small 6 Slices - 1 topping"
+  },
+  {
+    "id": 3,
+    "pizza": "Medium 8 Slices - 2 toppings"
+  },
+  {
+    "id": 4,
+    "pizza": "Large 10 Slices - no toppings"
+  },
+  {
+    "id": 5,
+    "pizza": "Large 10 Slices - 2 toppings"
+  }
+]
+05/03/2020 05:03:55 INFO ** Checking Response Time
+05/03/2020 05:03:55 INFO Response Time is = 108
+05/03/2020 05:03:55 INFO ** Checking Status Code **
+05/03/2020 05:03:55 INFO Status Code is = 200
+05/03/2020 05:03:55 INFO ** TC007_Get_ListPizzas completed **
+05/03/2020 05:03:55 INFO ** TC008_Get_ListOrders started **
+05/03/2020 05:03:55 INFO ** TC008_Get_ListOrders completed **
+05/03/2020 05:03:55 INFO ** Checking Content Type **
+05/03/2020 05:03:55 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:55 INFO ** Checking Response Body **
+05/03/2020 05:03:55 INFO Response body = [
+  {
+    "id": "1",
+    "items": [
+      {
+        "item": 1,
+        "pizza": "Medium 8 Slices - 2 toppings",
+        "toppings": [
+          "Mushrooms",
+          "Extra cheese"
+        ]
+      },
+      {
+        "item": 2,
+        "pizza": "Large 10 Slices - 2 toppings",
+        "toppings": [
+          "Italian Ham",
+          "Salami"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "items": [
+      {
+        "item": 1,
+        "pizza": "Small 6 Slices - no toppings",
+        "toppings": []
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "items": [
+      {
+        "item": 1,
+        "pizza": "Small 6 Slices - 1 topping",
+        "toppings": [
+          "Mushrooms"
+        ]
+      }
+    ]
+  }
+]
+05/03/2020 05:03:55 INFO ** Checking Response Time
+05/03/2020 05:03:55 INFO Response Time is = 84
+05/03/2020 05:03:55 INFO ** Checking Status Code **
+05/03/2020 05:03:55 INFO Status Code is = 200
+05/03/2020 05:03:55 INFO ** TC009_Get_ListSingleOrder started **
+05/03/2020 05:03:55 INFO ** Checking Content Type **
+05/03/2020 05:03:55 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:55 INFO ** Checking Response Body **
+05/03/2020 05:03:55 INFO Response body = {
+  "id": "1",
+  "items": [
+    {
+      "item": 1,
+      "pizza": "Medium 8 Slices - 2 toppings",
+      "toppings": [
+        "Mushrooms",
+        "Extra cheese"
+      ]
+    },
+    {
+      "item": 2,
+      "pizza": "Large 10 Slices - 2 toppings",
+      "toppings": [
+        "Italian Ham",
+        "Salami"
+      ]
+    }
+  ]
+}
+05/03/2020 05:03:55 INFO ** Checking Response Time
+05/03/2020 05:03:55 INFO Response Time is = 99
+05/03/2020 05:03:55 INFO ** Checking Status Code **
+05/03/2020 05:03:55 INFO Status Code is = 200
+05/03/2020 05:03:55 INFO ** TC009_Get_ListSingleOrder completed **
+05/03/2020 05:03:55 INFO ** TC010_Get_ListSingleOrderInvalidId started **
+05/03/2020 05:03:55 INFO ** Checking Content Type **
+05/03/2020 05:03:55 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:55 INFO ** Checking Response Body **
+05/03/2020 05:03:55 INFO Response body = {}
+05/03/2020 05:03:55 INFO ** Checking Response Time
+05/03/2020 05:03:55 INFO Response Time is = 116
+05/03/2020 05:03:55 INFO ** Checking Status Code **
+05/03/2020 05:03:55 INFO Status Code is = 404
+05/03/2020 05:03:55 INFO ** TC010_Get_ListSingleOrderInvalidId completed **
+05/03/2020 05:03:55 INFO ** TC011_Post_CreateOrder started **
+05/03/2020 05:03:55 INFO ** Checking Content Type **
+05/03/2020 05:03:55 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:55 INFO ** Checking Response Body **
+05/03/2020 05:03:56 INFO ** Response Body is = {
+  "items": [
+    {
+      "item": "1",
+      "pizza": "Medium 8 Slices - 2 toppings",
+      "toppings": [
+        "Mushrooms",
+        "Extra cheese"
+      ]
+    },
+    {
+      "item": "2",
+      "pizza": "Large 10 Slices - 2 toppings",
+      "toppings": [
+        "Italian Ham",
+        "Salami"
+      ]
+    }
+  ],
+  "id": "d-bqg-v"
+}
+05/03/2020 05:03:56 INFO ** Checking Status Code **
+05/03/2020 05:03:56 INFO Status Code is = 201
+05/03/2020 05:03:56 INFO ** TC011_Post_CreateOrder completed **
+05/03/2020 05:03:56 INFO ** TC012_Post_CreateOrderIncorrectNumberToppings started **
+05/03/2020 05:03:57 INFO ** Checking Content Type **
+05/03/2020 05:03:57 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:57 INFO ** Checking Response Body **
+05/03/2020 05:03:57 INFO ** Response Body is = {
+  "items": [
+    {
+      "item": "1",
+      "pizza": "Medium 8 Slices - 2 toppings",
+      "toppings": [
+        "Mushrooms",
+        "Extra cheese",
+        "Bacon"
+      ]
+    },
+    {
+      "item": "2",
+      "pizza": "Large 10 Slices - 2 toppings",
+      "toppings": [
+        "Italian Ham",
+        "Salami",
+        "Bacon"
+      ]
+    }
+  ],
+  "id": "ijyTYAd"
+}
+05/03/2020 05:03:57 INFO ** Checking Response Time
+05/03/2020 05:03:57 INFO Response Time is = 94
+05/03/2020 05:03:57 INFO ** Checking Status Code **
+05/03/2020 05:03:57 INFO Status Code is = 201
+05/03/2020 05:03:57 INFO ** TC012_Post_CreateOrderIncorrectNumberToppings completed **
+05/03/2020 05:03:57 INFO ** TC013_Post_CreateOrderInvalidPizza started **
+05/03/2020 05:03:57 INFO ** Checking Content Type **
+05/03/2020 05:03:57 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:57 INFO ** Checking Response Time
+05/03/2020 05:03:57 INFO Response Time is = 95
+05/03/2020 05:03:57 INFO ** Checking Status Code **
+05/03/2020 05:03:57 INFO Status Code is = 201
+05/03/2020 05:03:57 INFO ** TC013_Post_CreateOrderInvalidPizza completed **
+05/03/2020 05:03:57 INFO ** TC014_Post_CreateOrderPizzaNotSpecified started **
+05/03/2020 05:03:57 INFO ** Checking Content Type **
+05/03/2020 05:03:57 INFO Content-type = application/json; charset=utf-8
+05/03/2020 05:03:57 INFO ** Checking Response Time
+05/03/2020 05:03:57 INFO Response Time is = 93
+05/03/2020 05:03:57 INFO ** Checking Status Code **
+05/03/2020 05:03:57 INFO Status Code is = 201
+05/03/2020 05:03:57 INFO ** TC014_Post_CreateOrderPizzaNotSpecified completed **

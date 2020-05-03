@@ -1,7 +1,9 @@
 package com.sample.test.demo.tests;
 
 import static io.restassured.RestAssured.given;
+
 import org.testng.annotations.Test;
+
 import com.sample.test.demo.utils.BaseTest;
 
 public class DemoTest extends BaseTest {

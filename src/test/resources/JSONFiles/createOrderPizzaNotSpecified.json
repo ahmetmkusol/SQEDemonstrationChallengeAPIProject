@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "item": 1,
+      "pizza": "",
+      "toppings": [
+        "Mushrooms",
+        "Extra cheese"
+      ]
+    },
+    {
+      "item": 2,
+      "pizza": "",
+      "toppings": [
+        "Italian Ham",
+        "Salami"
+      ]
+    }
+  ]
+}
